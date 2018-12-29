@@ -12,7 +12,7 @@ import { DevilFruitLogiaComponent } from './devil-fruit/devil-fruit-logia/devil-
 import { DevilFruitParameciaComponent } from './devil-fruit/devil-fruit-paramecia/devil-fruit-paramecia.component';
 import { DevilFruitZoanComponent } from './devil-fruit/devil-fruit-zoan/devil-fruit-zoan.component';
 import { environment } from '../environments/environment';
-import { OnePieceService } from './one-piece.service';
+import { OnePieceService } from './common/one-piece.service';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';

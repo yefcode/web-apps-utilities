@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DevilFruit } from 'src/app/devil-fruit';
+import { DevilFruit } from 'src/app/model/devil-fruit';
 import { DevilFruitService } from './devil-fruit.service';
 
 @Component({
