@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DEVIL_FRUIT } from 'src/app/mock-devil-fruit';
 import { DevilFruit } from 'src/app/devil-fruit';
+import { DevilFruitService } from './devil-fruit.service';
 
 @Component({
   selector: 'one-piece-devil-fruit',
@@ -9,12 +9,13 @@ import { DevilFruit } from 'src/app/devil-fruit';
 })
 export class DevilFruitComponent implements OnInit {
 
-  public devilFruits: DevilFruit[] = DEVIL_FRUIT;
+  public devilFruits: DevilFruit[] = [];
   public title = 'One Piece Devil Fruits';
 
-  constructor() { }
+  constructor(private devilFruitService: DevilFruitService) { }
 
   ngOnInit() {
+    this.devilFruitService.getDevilFruit().subscribe(devilFruits => this.devilFruits = devilFruits);
   }
 
 }

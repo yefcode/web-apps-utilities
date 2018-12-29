@@ -16,6 +16,8 @@ import { OnePieceService } from './one-piece.service';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { CharacterService } from './character/character.service';
+import { DevilFruitService } from './devil-fruit/devil-fruit.service';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { InMemoryDataService } from './in-memory-data.service';
   ],
   providers: [
     AngularFirestore,
-    OnePieceService
+    OnePieceService,
+    CharacterService,
+    DevilFruitService
   ],
   bootstrap: [AppComponent]
 })

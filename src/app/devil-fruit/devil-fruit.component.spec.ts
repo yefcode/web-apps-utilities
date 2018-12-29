@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DevilFruitComponent } from './devil-fruit.component';
+import { DevilFruitService } from './devil-fruit.service';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('DevilFruitComponent', () => {
   let component: DevilFruitComponent;
@@ -8,9 +10,11 @@ describe('DevilFruitComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DevilFruitComponent ]
+      declarations: [DevilFruitComponent],
+      providers: [DevilFruitService],
+      imports: [HttpClientModule]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

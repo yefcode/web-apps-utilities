@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Character } from 'src/app/character';
-import { OnePieceService } from 'src/app/one-piece.service';
+import { CharacterService } from '../character.service';
 
 @Component({
   selector: 'one-piece-character',
@@ -12,10 +12,10 @@ export class OnePieceCharacterComponent implements OnInit {
   public title = 'One Piece';
   public characters: Character[] = [];
 
-  constructor(private onePieceservice: OnePieceService) { }
+  constructor(private characterService: CharacterService) { }
 
   ngOnInit() {
-    this.onePieceservice.getCharacter().subscribe(characters => this.characters = characters);
+    this.characterService.getCharacter().subscribe(characters => this.characters = characters);
   }
 
 }
