@@ -1,6 +1,8 @@
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule, AngularFirestore } from '@angular/fire/firestore';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,11 +15,11 @@ import { DevilFruitParameciaComponent } from './devil-fruit/devil-fruit-parameci
 import { DevilFruitZoanComponent } from './devil-fruit/devil-fruit-zoan/devil-fruit-zoan.component';
 import { environment } from '../environments/environment';
 import { OnePieceService } from './common/one-piece.service';
-import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { CharacterService } from './character/character.service';
 import { DevilFruitService } from './devil-fruit/devil-fruit.service';
+import { CustomMaterialModule } from './custom-material.module';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { DevilFruitService } from './devil-fruit/devil-fruit.service';
     DevilFruitZoanComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase, 'angular-one-piece'),
@@ -40,7 +43,8 @@ import { DevilFruitService } from './devil-fruit/devil-fruit.service';
     // Remove it when a real server is ready to receive requests.
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
-    )
+    ),
+    CustomMaterialModule
   ],
   providers: [
     AngularFirestore,
