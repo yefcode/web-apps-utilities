@@ -5,7 +5,6 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
-
   return (
     <>
       <NavBar />
@@ -14,7 +13,7 @@ const App = () => {
       <Contact />
       <Footer />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
