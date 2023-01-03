@@ -10,7 +10,7 @@ const Footer = () => {
         <GitHubButton
           href='https://github.com/yefcode' data-size='large'
           aria-label='Follow @yefcode on GitHub'
-        >Follow @yefcode
+        >GitHub account
         </GitHubButton>
         <small className='text-muted'>YEFERSON MARIN :v</small>
         <small className='text-msuted' id='timestamp'>{`© 2021 - ${year}`}</small>
