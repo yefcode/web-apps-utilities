@@ -4,6 +4,7 @@ import './Footer.scss'
 const Footer = () => {
   const today = new Date()
   const year = today.getFullYear()
+  // TODO THE FOOTER NEEDS TO BE CHANGED
   return (
     <div className='footer-container'>
       <footer className='section-content bottom-space'>
