@@ -43,7 +43,7 @@ const NavBar = () => {
           </a>
         ))}
       </div>
-      <SearchProject offset={offset} />
+      {/* <SearchProject offset={offset} /> */}
     </div>
   )
 }
