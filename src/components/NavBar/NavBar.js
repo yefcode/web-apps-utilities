@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import SearchProject from './SearchProject/SearchProject'
+// import SearchProject from './SearchProject/SearchProject'
 import './navbar.scss'
 
 const navbarLinksData = [
