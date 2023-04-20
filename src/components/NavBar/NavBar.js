@@ -35,7 +35,11 @@ const NavBar = () => {
         {navbarLinks?.map((navbarLink, _index) => (
           <a
             key={_index}
-            className={`navbar-transition ${offset ? 'scrolled' : ''} nav-link ${navbarLink.activeStyle ? 'active' : ''}`}
+            className={`
+              navbar-transition 
+              ${offset ? 'scrolled' : ''} 
+              nav-link 
+              ${navbarLink.activeStyle ? 'active' : ''}`}
             href={navbarLink.ref}
             onClick={() => toggleActiveClass(_index)}
           >
