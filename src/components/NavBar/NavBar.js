@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import SearchProject from './SearchProject/SearchProject'
+// import SearchProject from './SearchProject/SearchProject'
 import './navbar.scss'
 
 const navbarLinksData = [
@@ -47,7 +47,7 @@ const NavBar = () => {
           </a>
         ))}
       </div>
-      <SearchProject offset={offset} />
+      {/* <SearchProject offset={offset} /> */}
     </div>
   )
 }

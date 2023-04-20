@@ -4,13 +4,14 @@ import './Footer.scss'
 const Footer = () => {
   const today = new Date()
   const year = today.getFullYear()
+  // TODO THE FOOTER NEEDS TO BE CHANGED
   return (
     <div className='footer-container'>
       <footer className='section-content bottom-space'>
         <GitHubButton
           href='https://github.com/yefcode' data-size='large'
           aria-label='Follow @yefcode on GitHub'
-        >Follow @yefcode
+        >GitHub account
         </GitHubButton>
         <small className='text-muted'>YEFERSON MARIN :v</small>
         <small className='text-msuted' id='timestamp'>{`© 2021 - ${year}`}</small>
