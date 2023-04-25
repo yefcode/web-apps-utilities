@@ -11,35 +11,35 @@ $font-family: 'Roboto', Arial, sans-serif;
 $font-family-roboto: 'Roboto';
 
 // Colors
-$black-color: hsl(0, 0%, 0%);
+$color-black: hsl(0, 0%, 0%);
 $opacity-black-12: hsla(0, 0%, 0%, 0.12);
 $opacity-black-24: hsla(0, 0%, 0%, 0.24);
 
-$white-color: hsl(0, 0%, 100%);
-$light-gray-color: hsl(0, 0%, 87%);
-$lightest-pastel-blue-color: hsl(180, 100%, 97%);
+$color-white: hsl(0, 0%, 100%);
+$color-light-gray: hsl(0, 0%, 87%);
+$color-lightest-pastel-blue: hsl(180, 100%, 97%);
 
 $turquoise-02: hsl(172, 86%, 46%);
 
 $bright-teal: hsl(207, 90%, 54%);
 
 // DESCRIPTIVE COLORS - compose colors
-$heading-color: $bright-teal;
-$subheading-color: $lightest-pastel-blue-color;
-$text-shadow-color: $black-color;
+$color-heading: $bright-teal;
+$color-subheading: $color-lightest-pastel-blue;
+$color-text-shadow: $color-black;
 $shadow-bg-gradient-start: $opacity-black-12;
 $shadow-bg-gradient-end: $opacity-black-24;
-$init-bg-color: $turquoise-02;
+$color-init-bg: $turquoise-02;
 
 // NavBar Colors
-$color-navbar-scrolled-bg: $white-color;
-$color-navbar-link: $white-color;
-$color-navbar-link-scrolled: $black-color;
-$color-navbar-highlight: $light-gray-color;
+$color-navbar-scrolled-bg: $color-white;
+$color-navbar-link: $color-white;
+$color-navbar-link-scrolled: $color-black;
+$color-navbar-highlight: $color-light-gray;
 $color-navbar-active: $bright-teal;
 
 // About Colors
-// $subheading-border-animation-color: $heading-color;
+// $color-subheading-border-animation: $color-heading;
 
 // Shadows
-$primary-text-shadow: 0 1px 3px $text-shadow-color;
+$primary-text-shadow: 0 1px 3px $color-text-shadow;
