@@ -11,7 +11,29 @@ $font-family: 'Roboto', Arial, sans-serif;
 $font-family-roboto: 'Roboto';
 
 // Colors
+$black-color: hsl(0, 0%, 0%);
+$opacity-black-12: hsla(0, 0%, 0%, 0.12);
+$opacity-black-24: hsla(0, 0%, 0%, 0.24);
+
+$white-color: hsl(0, 0%, 100%);
+$light-gray-color: hsl(0, 0%, 87%);
+$lightest-pastel-blue-color: hsl(180, 100%, 97%);
+
 $turquoise-02: hsl(172, 86%, 46%);
 
+$bright-teal: hsl(207, 90%, 54%);
+
 // compose colors
+// DESCRIPTIVE COLORS
+$heading-color: $bright-teal;
+$subheading-color: $lightest-pastel-blue-color;
+$shadow-bg-gradient-start: $opacity-black-12;
+$shadow-bg-gradient-end: $opacity-black-24;
 $init-bg-color: $turquoise-02;
+
+// NavBar Colors
+$navbar-scrolled-bg-color: $white-color;
+$navbar-link-color: $white-color;
+$navbar-link-scrolled-color: $black-color;
+$navbar-highlight-color: $light-gray-color;
+$navbar-active-color: $bright-teal;
