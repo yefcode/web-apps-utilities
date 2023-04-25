@@ -24,7 +24,7 @@
 
 .navbar.scrolled {
   margin-top: 0;
-  background-color: $navbar-scrolled-bg-color;
+  background-color: $color-navbar-scrolled-bg;
   box-shadow:
     0 1px 3px $shadow-bg-gradient-start, 0 1px 2px $shadow-bg-gradient-end;
 }
@@ -33,7 +33,7 @@
   font-size: 17px;
   padding: 12px 16px;
   text-decoration: none;
-  color: $navbar-link-color;
+  color: $color-navbar-link;
 }
 
 .nav-links {
@@ -42,25 +42,25 @@
 }
 
 .nav-link.scrolled {
-  color: $navbar-link-scrolled-color;
+  color: $color-navbar-link-scrolled;
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid $navbar-highlight-color;
+  border-bottom: 2px solid $color-navbar-highlight;
 }
 
 .nav-link.scrolled:hover {
   border-bottom: none;
-  background-color: $navbar-highlight-color;
+  background-color: $color-navbar-highlight;
 }
 
 .nav-link.active {
-  color: $navbar-active-color;
-  border-bottom: 2px solid $navbar-active-color;
+  color: $color-navbar-active;
+  border-bottom: 2px solid $color-navbar-active;
 }
 
 .nav-link.scrolled.active {
-  color: $navbar-link-color;
-  background-color: $navbar-active-color;
+  color: $color-navbar-link;
+  background-color: $color-navbar-active;
   border-bottom: none;
 }
