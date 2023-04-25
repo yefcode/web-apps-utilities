@@ -23,10 +23,10 @@ $turquoise-02: hsl(172, 86%, 46%);
 
 $bright-teal: hsl(207, 90%, 54%);
 
-// compose colors
-// DESCRIPTIVE COLORS
+// DESCRIPTIVE COLORS - compose colors
 $heading-color: $bright-teal;
 $subheading-color: $lightest-pastel-blue-color;
+$text-shadow-color: $black-color;
 $shadow-bg-gradient-start: $opacity-black-12;
 $shadow-bg-gradient-end: $opacity-black-24;
 $init-bg-color: $turquoise-02;
@@ -37,3 +37,9 @@ $navbar-link-color: $white-color;
 $navbar-link-scrolled-color: $black-color;
 $navbar-highlight-color: $light-gray-color;
 $navbar-active-color: $bright-teal;
+
+// About Colors
+// $subheading-border-animation-color: $heading-color;
+
+// Shadows
+$primary-text-shadow: 0 1px 3px $text-shadow-color;
