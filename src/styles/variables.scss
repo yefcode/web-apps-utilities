@@ -12,7 +12,7 @@ $font-family-roboto: 'Roboto';
 $font-size-card-heading: 20px;
 $font-size-text: 15px;
 
-// Colors
+// COLORS
 $color-black: hsl(0, 0%, 0%);
 $opacity-black-12: hsla(0, 0%, 0%, 0.12);
 $opacity-black-16: hsla(0, 0%, 0%, 0.16);
@@ -24,11 +24,8 @@ $color-light-gray: hsl(0, 0%, 87%);
 $color-lightest-pastel-blue: hsl(180, 100%, 97%);
 
 $color-soft-rose: hsl(201, 88%, 90%);
-
-$turquoise-02: hsl(172, 86%, 46%);
-
-$bright-teal: hsl(207, 90%, 54%);
-
+$color-turquoise-02: hsl(172, 86%, 46%);
+$color-bright-teal: hsl(207, 90%, 54%);
 $color-jade-green: hsl(137, 41%, 47%);
 $color-orchid: hsl(347, 71%, 50%);
 $color-sunburst: hsl(271, 49%, 51%);
@@ -36,13 +33,18 @@ $color-malachite: hsl(27, 70%, 54%);
 $color-bright-blue-green: hsl(203, 79%, 43%);
 
 // DESCRIPTIVE COLORS - compose colors
-$color-primary-bg: $turquoise-02;
+// BACKGROUND COLORS
+$color-primary-bg: $color-turquoise-02;
 $color-secondary-bg: $color-soft-rose;
 
-$color-heading: $bright-teal;
+// TEXT COLORS
+$color-heading: $color-bright-teal;
 $color-subheading: $color-lightest-pastel-blue;
-$color-text-shadow: $color-black;
+// $color-text: ;
 $color-card-heading: $color-bright-blue-green;
+
+// SHADOW COLORS
+$color-text-shadow: $color-black;
 $shadow-gradient-start: $opacity-black-12;
 $shadow-gradient-start-16: $opacity-black-16;
 $shadow-gradient-end-23: $opacity-black-23;
@@ -53,7 +55,7 @@ $color-navbar-scrolled-bg: $color-white;
 $color-navbar-link: $color-white;
 $color-navbar-link-scrolled: $color-black;
 $color-navbar-highlight: $color-light-gray;
-$color-navbar-active: $bright-teal;
+$color-navbar-active: $color-bright-teal;
 
 // About Colors
 // $color-subheading-border-animation: $color-heading;
@@ -65,6 +67,3 @@ $color-item-border-1: $color-jade-green;
 $color-item-border-2: $color-orchid;
 $color-item-border-3: $color-black;
 $color-item-border-4: $color-sunburst;
-
-// Shadows
-$primary-text-shadow: 0 1px 3px $color-text-shadow;

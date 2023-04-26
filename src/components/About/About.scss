@@ -1,6 +1,8 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
+$primary-text-shadow: 0 1px 3px $color-text-shadow;
+
 .main-section {
   background: linear-gradient(0deg, $color-primary-bg, $color-primary-bg);
   background-size: cover;
