@@ -3,7 +3,7 @@
 
 .search-form {
   position: relative;
-  border: 1px solid hsl(0, 0%, 91%);
+  border: 1px solid $color-border-field;
   border-radius: 10px;
   height: 34px;
   margin-top: 6px;
@@ -16,15 +16,15 @@
 
 .search-form.scrolled {
   border: none;
-  background-color: hsl(0, 0%, 80%);
+  background-color: $color-bg-input-search-scrolled;
 }
 
 .nav-search {
   padding: 8px;
-  font-size: 17px;
-  color: #fff;
+  font-size: $font-size-text-secondary;
+  color: $color-text-input-search;
   border: none;
-  background-color: hsla(0, 0%, 0%, 0);
+  background-color: $color-bg-input-search;
 }
 
 .nav-search:focus {
@@ -33,15 +33,15 @@
 }
 
 .nav-search.scrolled {
-  color: #000;
+  color: $color-input-text;
 }
 
 .nav-search::placeholder {
-  color: #fff;
+  color: $color-text-input-search;
 }
 
 .nav-search.scrolled::placeholder {
-  color: #000;
+  color: $color-input-text;
 }
 
 
@@ -53,19 +53,19 @@
 }
 
 .svg-search-icon {
-  fill: #fff;
+  fill: $color-bg-button-search;
   width: 20px;
   height: 20px;
 }
 
 .svg-search-icon.scrolled {
-  fill: #000;
+  fill: $color-bg-button-search-scrolled;
 }
 
 .svg-search-icon:hover {
-  fill: #aaa;
+  fill: $color-bg-button-search-hover;
 }
 
 .svg-search-icon.scrolled:hover {
-  fill: #555;
+  fill: $color-bg-button-search-scrolled-hover;
 }
