@@ -23,6 +23,8 @@ $color-white: hsl(0, 0%, 100%);
 $color-light-gray: hsl(0, 0%, 87%);
 $color-lightest-pastel-blue: hsl(180, 100%, 97%);
 
+$color-soft-rose: hsl(201, 88%, 90%);
+
 $turquoise-02: hsl(172, 86%, 46%);
 
 $bright-teal: hsl(207, 90%, 54%);
@@ -44,6 +46,9 @@ $shadow-gradient-end-23: $opacity-black-23;
 $shadow-gradient-end: $opacity-black-24;
 
 $color-init-bg: $turquoise-02;
+$color-primary-bg: $turquoise-02;
+
+$color-secondary-bg: $color-soft-rose;
 
 // NavBar Colors
 $color-navbar-scrolled-bg: $color-white;

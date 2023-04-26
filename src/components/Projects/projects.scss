@@ -3,13 +3,13 @@
 .blobs {
   position: relative;
   width: 100%;
-  background: hsl(201, 88%, 90%);
+  background: $color-secondary-bg;
 }
 
 .content-title {
   font-family: "Manjari", "Roboto", Helvetica, sans-serif;
   font-size: 25px;
-  color: hsl(207, 90%, 54%);
+  color: $color-heading;
   margin-bottom: 20px;
   padding-top: 50px;
 }
@@ -24,6 +24,6 @@
 }
 
 .wave .shape-fill {
-  fill: $color-init-bg;
+  fill: $color-primary-bg;
 }
 
