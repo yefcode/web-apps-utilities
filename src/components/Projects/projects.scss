@@ -3,7 +3,7 @@
 .blobs {
   position: relative;
   width: 100%;
-  background: $color-secondary-bg;
+  background: $color-bg-secondary;
 }
 
 .content-title {
@@ -24,5 +24,5 @@
 }
 
 .wave .shape-fill {
-  fill: $color-primary-bg;
+  fill: $color-bg-primary;
 }

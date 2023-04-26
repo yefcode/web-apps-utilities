@@ -42,21 +42,21 @@ $color-bright-blue-green: hsl(203, 79%, 43%);
 
 // DESCRIPTIVE COLORS - compose colors
 // BACKGROUND COLORS
-$color-primary-bg: $color-turquoise-02;
-$color-secondary-bg: $color-soft-rose;
-$color-input-bg: $color-light-gray-91;
-$color-bg-input-search-scrolled: $color-light-gray-80;
+$color-bg-primary: $color-turquoise-02;
+$color-bg-secondary: $color-soft-rose;
+$color-bg-input: $color-light-gray-91;
 $color-bg-input-search: $color-black;
-$color-submit-button-bg: $color-bright-teal;
+$color-bg-input-search-scrolled: $color-light-gray-80;
+$color-bg-button-submit: $color-bright-teal;
 
 // TEXT COLORS
 $color-heading: $color-bright-teal;
 $color-subheading: $color-lightest-pastel-blue;
 // $color-text: ;
-$color-card-heading: $color-bright-blue-green;
-$color-input-text: $color-black;
+$color-heading-card: $color-bright-blue-green;
+$color-text-input: $color-black;
 $color-text-input-search: $color-white;
-$color-submit-button-text: $color-white;
+$color-text-button-submit: $color-white;
 
 // SHADOW COLORS
 $color-text-shadow: $color-black;
