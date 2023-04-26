@@ -21,11 +21,11 @@
 
 .contact-input {
   padding: 6px;
-  font-size: 17px;
+  font-size: $font-size-text-secondary;
   border-radius: 5px;
   border: none;
-  color: #000;
-  background-color: #e9e9e9;
+  color: $color-input-text;
+  background-color: $color-input-bg;
 }
 
 .contact-input-textarea {
@@ -33,11 +33,11 @@
   min-height: 150px;
   height: auto;
   padding: 6px;
-  font-size: 17px;
+  font-size: $font-size-text-secondary;
   border-radius: 5px;
   border: none;
-  color: #000;
-  background-color: #e9e9e9;
+  color: $color-input-text;
+  background-color: $color-input-bg;
 }
 
 .contact-submit-button {
@@ -45,16 +45,16 @@
   width: 250px;
   border: none;
   outline: none;
-  color: white;
-  background-color: #2196f3;
+  color: $color-submit-button-text;
+  background-color: $color-submit-button-bg;
   cursor: pointer;
   padding: 15px;
-  font-size: 20px;
+  font-size: $font-size-submit-button;
   border-radius: 10px;
 }
 
-.pink {
-  background: hsl(336, 100%, 50%);
+.contact-container {
+  background: $color-wave-bg;
   overflow: hidden;
   position: relative;
 }
@@ -69,7 +69,7 @@
 }
 
 .wave .shape-fill-contact {
-  fill: #CFECFC;
+  fill: $color-secondary-bg;
 }
 
 .pink .wave svg {

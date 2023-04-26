@@ -13,7 +13,7 @@ const Contact = () => {
     window.open(URI, '_blank')
   }
   return (
-    <section className='pink'>
+    <section className='contact-container'>
       <div className='wave'>
         <svg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'>
           <path

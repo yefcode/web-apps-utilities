@@ -11,6 +11,8 @@ $font-family: 'Roboto', Arial, sans-serif;
 $font-family-roboto: 'Roboto';
 $font-size-card-heading: 20px;
 $font-size-text: 15px;
+$font-size-text-secondary: 17px;
+$font-size-submit-button: 20px;
 
 // COLORS
 $color-black: hsl(0, 0%, 0%);
@@ -21,6 +23,7 @@ $opacity-black-24: hsla(0, 0%, 0%, 0.24);
 
 $color-white: hsl(0, 0%, 100%);
 $color-light-gray: hsl(0, 0%, 87%);
+$color-light-gray-91: hsl(0, 0%, 91%);
 $color-lightest-pastel-blue: hsl(180, 100%, 97%);
 
 $color-soft-rose: hsl(201, 88%, 90%);
@@ -28,6 +31,7 @@ $color-turquoise-02: hsl(172, 86%, 46%);
 $color-bright-teal: hsl(207, 90%, 54%);
 $color-jade-green: hsl(137, 41%, 47%);
 $color-orchid: hsl(347, 71%, 50%);
+$color-rich-purple: hsl(336, 100%, 50%);
 $color-sunburst: hsl(271, 49%, 51%);
 $color-malachite: hsl(27, 70%, 54%);
 $color-bright-blue-green: hsl(203, 79%, 43%);
@@ -36,12 +40,16 @@ $color-bright-blue-green: hsl(203, 79%, 43%);
 // BACKGROUND COLORS
 $color-primary-bg: $color-turquoise-02;
 $color-secondary-bg: $color-soft-rose;
+$color-input-bg: $color-light-gray-91;
+$color-submit-button-bg: $color-bright-teal;
 
 // TEXT COLORS
 $color-heading: $color-bright-teal;
 $color-subheading: $color-lightest-pastel-blue;
 // $color-text: ;
 $color-card-heading: $color-bright-blue-green;
+$color-input-text: $color-black;
+$color-submit-button-text: $color-white;
 
 // SHADOW COLORS
 $color-text-shadow: $color-black;
@@ -67,3 +75,6 @@ $color-item-border-1: $color-jade-green;
 $color-item-border-2: $color-orchid;
 $color-item-border-3: $color-black;
 $color-item-border-4: $color-sunburst;
+
+// Contact Colors
+$color-wave-bg: $color-rich-purple;
