@@ -36,6 +36,9 @@ $color-malachite: hsl(27, 70%, 54%);
 $color-bright-blue-green: hsl(203, 79%, 43%);
 
 // DESCRIPTIVE COLORS - compose colors
+$color-primary-bg: $turquoise-02;
+$color-secondary-bg: $color-soft-rose;
+
 $color-heading: $bright-teal;
 $color-subheading: $color-lightest-pastel-blue;
 $color-text-shadow: $color-black;
@@ -44,11 +47,6 @@ $shadow-gradient-start: $opacity-black-12;
 $shadow-gradient-start-16: $opacity-black-16;
 $shadow-gradient-end-23: $opacity-black-23;
 $shadow-gradient-end: $opacity-black-24;
-
-$color-init-bg: $turquoise-02;
-$color-primary-bg: $turquoise-02;
-
-$color-secondary-bg: $color-soft-rose;
 
 // NavBar Colors
 $color-navbar-scrolled-bg: $color-white;
