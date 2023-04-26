@@ -1,13 +1,17 @@
+@import "../../../styles/variables.scss";
+
 .repo-list-item {
   margin: 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #fff;
+  background: $color-item-bg;
   border-radius: 3px;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  $transition-duration: 0.3s;
+  transition: all $transition-duration cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 1px 3px $shadow-gradient-start, 0 1px 2px $shadow-gradient-end;
 }
 
 .github_buttons {
@@ -18,38 +22,34 @@
 }
 
 .repo-list-item:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px $shadow-gradient-start-16, 0 3px 6px $shadow-gradient-end-23;
 }
 
 .repo-list-item {
   margin-top: 3px;
-  border-top: 7px solid #1b66a3;
+  border-top: 7px solid $color-item-border;
 }
 
 .repo-list-item:nth-child(5n + 1) {
-  margin-top: 3px;
-  border-top: 7px solid #39a86b;
+  border-top: 7px solid $color-item-border-1;
 }
 
 .repo-list-item:nth-child(5n + 2) {
-  margin-top: 3px;
-  border-top: 7px solid #a83939;
+  border-top: 7px solid $color-item-border-2;
 }
 
 .repo-list-item:nth-child(5n + 3) {
-  margin-top: 3px;
-  border-top: 7px solid #7c39a8;
+  border-top: 7px solid $color-item-border-3;
 }
 
 .repo-list-item:nth-child(5n + 4) {
-  margin-top: 3px;
-  border-top: 7px solid #d17946;
+  border-top: 7px solid $color-item-border-4;
 }
 
 .repo-title-name {
   text-decoration: none;
-  color: #1b66a3;
-  font-size: 20px;
+  color: $color-card-heading;
+  font-size: $font-size-card-heading;
 }
 
 .repo-title-name:hover {
@@ -64,20 +64,20 @@
 .repo-description-readmore {
   margin-left: 10px;
   text-decoration: none;
-  color: #1b66a3;
-  font-size: 15px;
+  color: $color-card-heading;
+  font-size: $font-size-text;
 }
 
 .repo-description-readmore:hover {
   text-decoration: underline;
 }
 
-
-
+// ANIMATION
 
 .fade-in-bottom {
-	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  $animation-duration: 0.6s;
+	-webkit-animation: fade-in-bottom $animation-duration cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom $animation-duration cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes fade-in-bottom {

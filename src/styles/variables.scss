@@ -9,10 +9,14 @@ $size-xl: 1440px;
 // Fonts
 $font-family: 'Roboto', Arial, sans-serif;
 $font-family-roboto: 'Roboto';
+$font-size-card-heading: 20px;
+$font-size-text: 15px;
 
 // Colors
 $color-black: hsl(0, 0%, 0%);
 $opacity-black-12: hsla(0, 0%, 0%, 0.12);
+$opacity-black-16: hsla(0, 0%, 0%, 0.16);
+$opacity-black-23: hsla(0, 0%, 0%, 0.23);
 $opacity-black-24: hsla(0, 0%, 0%, 0.24);
 
 $color-white: hsl(0, 0%, 100%);
@@ -23,12 +27,22 @@ $turquoise-02: hsl(172, 86%, 46%);
 
 $bright-teal: hsl(207, 90%, 54%);
 
+$color-jade-green: hsl(137, 41%, 47%);
+$color-orchid: hsl(347, 71%, 50%);
+$color-sunburst: hsl(271, 49%, 51%);
+$color-malachite: hsl(27, 70%, 54%);
+$color-bright-blue-green: hsl(203, 79%, 43%);
+
 // DESCRIPTIVE COLORS - compose colors
 $color-heading: $bright-teal;
 $color-subheading: $color-lightest-pastel-blue;
 $color-text-shadow: $color-black;
-$shadow-bg-gradient-start: $opacity-black-12;
-$shadow-bg-gradient-end: $opacity-black-24;
+$color-card-heading: $color-bright-blue-green;
+$shadow-gradient-start: $opacity-black-12;
+$shadow-gradient-start-16: $opacity-black-16;
+$shadow-gradient-end-23: $opacity-black-23;
+$shadow-gradient-end: $opacity-black-24;
+
 $color-init-bg: $turquoise-02;
 
 // NavBar Colors
@@ -40,6 +54,14 @@ $color-navbar-active: $bright-teal;
 
 // About Colors
 // $color-subheading-border-animation: $color-heading;
+
+// Project Colors
+$color-item-bg: $color-white;
+$color-item-border: $color-bright-blue-green;
+$color-item-border-1: $color-jade-green;
+$color-item-border-2: $color-orchid;
+$color-item-border-3: $color-black;
+$color-item-border-4: $color-sunburst;
 
 // Shadows
 $primary-text-shadow: 0 1px 3px $color-text-shadow;
