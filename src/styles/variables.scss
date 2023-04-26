@@ -16,10 +16,8 @@ $font-size-submit-button: 20px;
 
 // COLORS
 $color-black: hsl(0, 0%, 0%);
-$opacity-black-12: hsla(0, 0%, 0%, 0.12);
 $opacity-black-16: hsla(0, 0%, 0%, 0.16);
 $opacity-black-23: hsla(0, 0%, 0%, 0.23);
-$opacity-black-24: hsla(0, 0%, 0%, 0.24);
 
 $color-white: hsl(0, 0%, 100%);
 
@@ -28,6 +26,7 @@ $color-light-gray-91: hsl(0, 0%, 91%);
 $color-light-gray-80: hsl(0, 0%, 80%);
 $color-light-gray: hsl(0, 0%, 87%);
 $color-light-gray-67: hsl(0, 0%, 67%);
+
 $color-dark-gray: hsl(0, 0%, 33%);
 $color-lightest-pastel-blue: hsl(180, 100%, 97%);
 $color-soft-rose: hsl(201, 88%, 90%);
@@ -60,10 +59,8 @@ $color-text-button-submit: $color-white;
 
 // SHADOW COLORS
 $color-text-shadow: $color-black;
-$shadow-gradient-start: $opacity-black-12;
-$shadow-gradient-start-16: $opacity-black-16;
-$shadow-gradient-end-23: $opacity-black-23;
-$shadow-gradient-end: $opacity-black-24;
+$shadow-gradient-start: $opacity-black-16;
+$shadow-gradient-end: $opacity-black-23;
 
 // BORDER BOX COLORS
 $color-border-field: $color-light-gray-91;
