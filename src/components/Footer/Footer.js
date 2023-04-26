@@ -14,7 +14,7 @@ const Footer = () => {
         >GitHub account
         </GitHubButton>
         <small className='text-muted'>YEFERSON MARIN :v</small>
-        <small className='text-msuted' id='timestamp'>{`© 2021 - ${year}`}</small>
+        <small className='text-muted' id='timestamp'>{`© 2021 - ${year}`}</small>
       </footer>
     </div>
   )

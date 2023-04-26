@@ -22,10 +22,12 @@ $opacity-black-23: hsla(0, 0%, 0%, 0.23);
 $opacity-black-24: hsla(0, 0%, 0%, 0.24);
 
 $color-white: hsl(0, 0%, 100%);
-$color-light-gray: hsl(0, 0%, 87%);
-$color-light-gray-91: hsl(0, 0%, 91%);
-$color-lightest-pastel-blue: hsl(180, 100%, 97%);
 
+$color-light-gray-96: hsl(0, 0%, 96%);
+$color-light-gray-91: hsl(0, 0%, 91%);
+$color-light-gray: hsl(0, 0%, 87%);
+$color-dark-gray: hsl(0, 0%, 33%);
+$color-lightest-pastel-blue: hsl(180, 100%, 97%);
 $color-soft-rose: hsl(201, 88%, 90%);
 $color-turquoise-02: hsl(172, 86%, 46%);
 $color-bright-teal: hsl(207, 90%, 54%);
@@ -78,3 +80,7 @@ $color-item-border-4: $color-sunburst;
 
 // Contact Colors
 $color-wave-bg: $color-rich-purple;
+
+// Footer Colors
+$color-footer-bg: $color-light-gray-96;
+$color-footer-text: $color-dark-gray;
