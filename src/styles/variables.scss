@@ -16,15 +16,11 @@ $font-size-submit-button: 20px;
 
 // COLORS
 $color-black: hsl(0, 0%, 0%);
-$opacity-black-16: hsla(0, 0%, 0%, 0.16);
-$opacity-black-23: hsla(0, 0%, 0%, 0.23);
-
-$color-white: hsl(0, 0%, 100%);
-
-$color-light-gray: hsl(0, 0%, 91%);
-
+$color-black-opacity-16: hsla(0, 0%, 0%, 0.16);
+$color-black-opacity-23: hsla(0, 0%, 0%, 0.23);
 $color-dark-gray: hsl(0, 0%, 33%);
-$color-lightest-pastel-blue: hsl(180, 100%, 97%);
+$color-white: hsl(0, 0%, 100%);
+$color-light-gray: hsl(0, 0%, 85%);
 $color-soft-rose: hsl(201, 88%, 90%);
 $color-turquoise-02: hsl(172, 86%, 46%);
 $color-bright-teal: hsl(207, 90%, 54%);
@@ -46,7 +42,7 @@ $color-bg-button-submit: $color-bright-teal;
 
 // TEXT COLORS
 $color-heading: $color-bright-teal;
-$color-subheading: $color-lightest-pastel-blue;
+$color-subheading: $color-white;
 // $color-text: ;
 $color-heading-card: $color-bright-blue-green;
 $color-text-input: $color-black;
@@ -55,8 +51,8 @@ $color-text-button-submit: $color-white;
 
 // SHADOW COLORS
 $color-text-shadow: $color-black;
-$shadow-gradient-start: $opacity-black-16;
-$shadow-gradient-end: $opacity-black-23;
+$shadow-gradient-start: $color-black-opacity-16;
+$shadow-gradient-end: $color-black-opacity-23;
 
 // BORDER BOX COLORS
 $color-border-field: $color-white;
@@ -84,7 +80,7 @@ $color-wave-bg: $color-rich-purple;
 
 // Footer Colors
 $color-footer-bg: $color-white;
-$color-footer-text: $color-dark-gray;
+$color-footer-text: $color-black;
 
 // SearchProject
 $color-bg-button-search: $color-white;
