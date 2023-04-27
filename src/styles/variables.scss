@@ -21,11 +21,7 @@ $opacity-black-23: hsla(0, 0%, 0%, 0.23);
 
 $color-white: hsl(0, 0%, 100%);
 
-$color-light-gray-96: hsl(0, 0%, 96%);
-$color-light-gray-91: hsl(0, 0%, 91%);
-$color-light-gray-80: hsl(0, 0%, 80%);
-$color-light-gray: hsl(0, 0%, 87%);
-$color-light-gray-67: hsl(0, 0%, 67%);
+$color-light-gray: hsl(0, 0%, 91%);
 
 $color-dark-gray: hsl(0, 0%, 33%);
 $color-lightest-pastel-blue: hsl(180, 100%, 97%);
@@ -43,9 +39,9 @@ $color-bright-blue-green: hsl(203, 79%, 43%);
 // BACKGROUND COLORS
 $color-bg-primary: $color-turquoise-02;
 $color-bg-secondary: $color-soft-rose;
-$color-bg-input: $color-light-gray-91;
+$color-bg-input: $color-white;
 $color-bg-input-search: $color-black;
-$color-bg-input-search-scrolled: $color-light-gray-80;
+$color-bg-input-search-scrolled: $color-white;
 $color-bg-button-submit: $color-bright-teal;
 
 // TEXT COLORS
@@ -63,7 +59,7 @@ $shadow-gradient-start: $opacity-black-16;
 $shadow-gradient-end: $opacity-black-23;
 
 // BORDER BOX COLORS
-$color-border-field: $color-light-gray-91;
+$color-border-field: $color-white;
 
 // NavBar Colors
 $color-navbar-scrolled-bg: $color-white;
@@ -87,11 +83,11 @@ $color-item-border-4: $color-sunburst;
 $color-wave-bg: $color-rich-purple;
 
 // Footer Colors
-$color-footer-bg: $color-light-gray-96;
+$color-footer-bg: $color-white;
 $color-footer-text: $color-dark-gray;
 
 // SearchProject
 $color-bg-button-search: $color-white;
 $color-bg-button-search-scrolled: $color-black;
-$color-bg-button-search-hover: $color-light-gray-67;
+$color-bg-button-search-hover: $color-light-gray;
 $color-bg-button-search-scrolled-hover: $color-dark-gray;
