@@ -27,23 +27,6 @@
 
 .repo-list-item {
   margin-top: 3px;
-  border-top: 7px solid $color-item-border;
-}
-
-.repo-list-item:nth-child(5n + 1) {
-  border-top: 7px solid $color-item-border-1;
-}
-
-.repo-list-item:nth-child(5n + 2) {
-  border-top: 7px solid $color-item-border-2;
-}
-
-.repo-list-item:nth-child(5n + 3) {
-  border-top: 7px solid $color-item-border-3;
-}
-
-.repo-list-item:nth-child(5n + 4) {
-  border-top: 7px solid $color-item-border-4;
 }
 
 .repo-title-name {
