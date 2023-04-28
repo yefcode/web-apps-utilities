@@ -23,8 +23,6 @@ $color-white: hsl(0, 0%, 100%);
 $color-light-gray: hsl(0, 0%, 85%);
 $color-turquoise-02: hsl(172, 86%, 46%);
 $color-bright-teal: hsl(207, 90%, 54%);
-$color-bright-blue-green: hsl(203, 79%, 43%);
-$color-rich-purple: hsl(336, 100%, 50%);
 
 // DESCRIPTIVE COLORS - compose colors
 // BACKGROUND COLORS
@@ -39,7 +37,7 @@ $color-bg-button-submit: $color-bright-teal;
 $color-heading: $color-bright-teal;
 $color-subheading: $color-white;
 // $color-text: ;
-$color-heading-card: $color-bright-blue-green;
+$color-heading-card: $color-bright-teal;
 $color-text-input: $color-black;
 $color-text-input-search: $color-white;
 $color-text-button-submit: $color-white;
@@ -66,7 +64,7 @@ $color-navbar-active: $color-bright-teal;
 $color-item-bg: $color-white;
 
 // Contact Colors
-$color-wave-bg: $color-rich-purple;
+$color-wave-bg: $color-turquoise-02;
 
 // Footer Colors
 $color-footer-bg: $color-white;
