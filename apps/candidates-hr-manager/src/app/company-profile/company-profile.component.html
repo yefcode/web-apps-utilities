@@ -1,0 +1,72 @@
+<div class="container-mat-accordion-yef">
+  <h2>Company Profile</h2>
+  <p>You can click on any row option to display an input field to update that property </p>
+  <mat-accordion class="mat-accordion-headers-align">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Company Name
+        </mat-panel-title>
+        <mat-panel-description>
+          {{company.name}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <mat-form-field>
+        <input matInput placeholder="update the company name" [formControl]="formControlName" required>
+        <mat-error *ngIf="formControlName.invalid">{{getErrorMessageName()}}</mat-error>
+      </mat-form-field>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Address
+        </mat-panel-title>
+        <mat-panel-description>
+          {{company.address}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-form-field>
+          <input matInput placeholder="update the address" [formControl]="formControlAddress" required>
+          <mat-error *ngIf="formControlAddress.invalid">{{getErrorMessageAddress()}}</mat-error>
+        </mat-form-field>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          EMail
+        </mat-panel-title>
+        <mat-panel-description>
+          {{company.email}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-form-field>
+          <input matInput placeholder="update the email" [formControl]="formControlEmail" required>
+          <mat-error *ngIf="formControlEmail.invalid">{{getErrorMessageEmail()}}</mat-error>
+        </mat-form-field>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Phone
+        </mat-panel-title>
+        <mat-panel-description>
+          {{company.phone}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-form-field>
+          <input matInput placeholder="update the phone" [formControl]="formControlPhone" required>
+          <mat-error *ngIf="formControlPhone.invalid">{{getErrorMessagePhone()}}</mat-error>
+        </mat-form-field>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+
+  <div class="update-company-button">
+    <button class="btn btn-primary" (click)="onSubmit()">Save</button>
+  </div>
+
+</div>

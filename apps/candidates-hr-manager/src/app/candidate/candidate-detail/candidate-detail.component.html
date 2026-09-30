@@ -1,0 +1,20 @@
+<app-modal id="modal-id-candidate">
+  <div class="modal-candidate">
+
+      <div class="modal-body-candidate">
+          <div class="container" *ngIf="candidate">
+            <div class="avatar">
+              <img alt="" [src]="candidate.picture.large">
+            </div>
+            <div class="candidateName">{{candidate.name.first}} {{candidate.name.last}}</div>
+            <div>{{candidate.phone}}</div>
+            <div>{{candidate.email}}</div>
+            <div>{{candidate.gender}}</div>
+          </div>
+
+          <button class="btn btn-secondary" (click)="closeModal('modal-id')">Close</button>
+      </div>
+
+  </div>
+  <div class="modal-background-candidate"></div>
+</app-modal>
