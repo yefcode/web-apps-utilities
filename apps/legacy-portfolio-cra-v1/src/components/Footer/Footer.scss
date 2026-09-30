@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.footer-container {
+  background: $color-footer-bg;
+  padding: 30px;
+}
+
+.text-muted {
+  color: $color-footer-text;
+}

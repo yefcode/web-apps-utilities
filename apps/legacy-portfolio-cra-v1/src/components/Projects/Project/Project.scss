@@ -1,0 +1,90 @@
+@import "../../../styles/variables.scss";
+
+.repo-list-item {
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $color-item-bg;
+  border-radius: 3px;
+
+  $transition-duration: 0.3s;
+  transition: all $transition-duration cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 1px 3px $shadow-gradient-start, 0 1px 2px $shadow-gradient-end;
+}
+
+.github_buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.repo-list-item:hover {
+  box-shadow: 0 3px 6px $shadow-gradient-start, 0 3px 6px $shadow-gradient-end;
+}
+
+.repo-list-item {
+  margin-top: 3px;
+}
+
+.repo-title-name {
+  text-decoration: none;
+  color: $color-heading-card;
+  font-size: $font-size-card-heading;
+}
+
+.repo-title-name:hover {
+  text-decoration: underline;
+}
+
+.repo-description {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.repo-description-readmore {
+  margin-left: 10px;
+  text-decoration: none;
+  color: $color-heading-card;
+  font-size: $font-size-text;
+}
+
+.repo-description-readmore:hover {
+  text-decoration: underline;
+}
+
+// ANIMATION
+
+.fade-in-bottom {
+  $animation-duration: 0.6s;
+	-webkit-animation: fade-in-bottom $animation-duration cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom $animation-duration cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+	0% {
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-bottom {
+	0% {
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.blobs {
+  position: relative;
+  width: 100%;
+  background: $color-bg-secondary;
+}
+
+.content-title {
+  font-family: "Manjari", "Roboto", Helvetica, sans-serif;
+  font-size: 25px;
+  color: $color-heading;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.repo-list {
+  width: 100%;
+  margin: 30px 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+}
+
+.wave .shape-fill {
+  fill: $color-bg-primary;
+}

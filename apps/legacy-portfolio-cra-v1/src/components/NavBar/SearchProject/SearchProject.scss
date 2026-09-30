@@ -1,0 +1,71 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/variables.scss";
+
+.search-form {
+  position: relative;
+  border: 1px solid $color-border-field;
+  border-radius: 10px;
+  height: 34px;
+  margin-top: 6px;
+
+  @include respond-down($size-sm) {
+    // max-width: 300px;
+    display: none;
+  }
+}
+
+.search-form.scrolled {
+  border: none;
+  background-color: $color-bg-input-search-scrolled;
+}
+
+.nav-search {
+  padding: 8px;
+  font-size: $font-size-text-secondary;
+  color: $color-text-input-search;
+  border: none;
+  background-color: $color-bg-input-search;
+}
+
+.nav-search:focus {
+  width: 300px;
+  outline: none;
+}
+
+.nav-search.scrolled {
+  color: $color-text-input;
+}
+
+.nav-search::placeholder {
+  color: $color-text-input-search;
+}
+
+.nav-search.scrolled::placeholder {
+  color: $color-text-input;
+}
+
+
+.submit-search-button {
+  position: relative;
+  top: 4px;
+  border: none;
+  background: none;
+}
+
+.svg-search-icon {
+  fill: $color-bg-button-search;
+  width: 20px;
+  height: 20px;
+}
+
+.svg-search-icon.scrolled {
+  fill: $color-bg-button-search-scrolled;
+}
+
+.svg-search-icon:hover {
+  fill: $color-bg-button-search-hover;
+}
+
+.svg-search-icon.scrolled:hover {
+  fill: $color-bg-button-search-scrolled-hover;
+}

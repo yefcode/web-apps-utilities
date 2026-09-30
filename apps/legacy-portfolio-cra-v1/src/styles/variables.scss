@@ -1,0 +1,101 @@
+// Breakpoints
+$size-xs: 459px;
+$size-sm: 768px;
+// $size-smd: 960px;
+$size-md: 1024px;
+$size-lg: 1280px;
+$size-xl: 1440px;
+
+// Fonts
+$font-family: 'Roboto', Arial, sans-serif;
+$font-family-roboto: 'Roboto';
+$font-size-card-heading: 20px;
+$font-size-text: 15px;
+$font-size-text-secondary: 17px;
+$font-size-submit-button: 20px;
+
+// COLORS
+$color-black: #000000;
+$color-black-opacity-16: hsla(0, 0%, 0%, 0.16);
+$color-black-opacity-23: hsla(0, 0%, 0%, 0.23);
+$color-white: #ffffff;
+
+// GRAY
+$color-dark-gray: #545454;
+$color-light-gray: #f7f7f7;
+
+// DEFINING BG COLORS
+// VIOLET - dark, medium, and light shade colors of blue-magenta
+$color-dark-shade-blue-violet: #4d1a7f;
+$color-dark-shade-american-violet: #551b8c;
+$color-dark-shade-violet: #553592;
+$color-shade-blueviolet: #8a2be2;
+$color-medium-light-shade: #a954e9;
+$color-light-shade: #cc9af2;
+$color-violet: $color-dark-shade-american-violet;
+
+// BLUE - shade colors of cyan-blue
+$color-blue-brandeis-blue: #0070ff;
+$color-blue-crayola-blue: #1f75fe;
+$color-azure: #007fff;
+$color-cyan-blue-shade: #2094f3;
+
+$color-cyan-shade-blue-bolt: #00b9fb;
+$color-blue: $color-cyan-blue-shade;
+
+// GREEN
+$color-green-cyan-shade: #3aae6d;
+$color-green-cyan-shade-asda-green: #00dea4;
+$color-green: $color-green-cyan-shade;
+
+// DESCRIPTIVE COLORS - compose colors
+// BACKGROUND COLORS
+$color-bg-primary: $color-blue;
+$color-bg-secondary: $color-light-gray;
+$color-bg-input: $color-white;
+$color-bg-input-search: $color-black;
+$color-bg-input-search-scrolled: $color-white;
+$color-bg-button-submit: $color-violet;
+
+// TEXT COLORS
+$color-heading: $color-black;
+$color-subheading: $color-white;
+// $color-text: ;
+$color-heading-card: $color-blue;
+$color-text-input: $color-black;
+$color-text-input-search: $color-white;
+$color-text-button-submit: $color-white;
+
+// SHADOW COLORS
+$color-text-shadow: $color-black;
+$shadow-gradient-start: $color-black-opacity-16;
+$shadow-gradient-end: $color-black-opacity-23;
+
+// BORDER BOX COLORS
+$color-border-field: $color-white;
+
+// NavBar Colors
+$color-navbar-scrolled-bg: $color-white;
+$color-navbar-link: $color-white;
+$color-navbar-link-scrolled: $color-black;
+$color-navbar-highlight: $color-light-gray;
+$color-navbar-active: $color-black;
+
+// About Colors
+// $color-subheading-border-animation: $color-heading;
+
+// Project Colors
+$color-item-bg: $color-white;
+
+// Contact Colors
+$color-wave-bg: $color-bg-primary;
+
+// Footer Colors
+$color-footer-bg: $color-white;
+$color-footer-text: $color-black;
+
+// SearchProject
+$color-bg-button-search: $color-white;
+$color-bg-button-search-scrolled: $color-black;
+$color-bg-button-search-hover: $color-light-gray;
+$color-bg-button-search-scrolled-hover: $color-dark-gray;

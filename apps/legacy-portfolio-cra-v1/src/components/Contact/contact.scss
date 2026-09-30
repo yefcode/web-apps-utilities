@@ -1,0 +1,77 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.blob-content {
+  z-index: 1;
+}
+
+.contact-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  @include respond-up($size-xs) {
+    min-width: 400px;
+  }
+}
+
+.contact-input-label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-input {
+  padding: 6px;
+  font-size: $font-size-text-secondary;
+  border-radius: 5px;
+  border: none;
+  color: $color-text-input;
+  background-color: $color-bg-input;
+}
+
+.contact-input-textarea {
+  resize: vertical;
+  min-height: 150px;
+  height: auto;
+  padding: 6px;
+  font-size: $font-size-text-secondary;
+  border-radius: 5px;
+  border: none;
+  color: $color-text-input;
+  background-color: $color-bg-input;
+}
+
+.contact-submit-button {
+  margin: 20px auto;
+  width: 250px;
+  border: none;
+  outline: none;
+  color: $color-text-button-submit;
+  background-color: $color-bg-button-submit;
+  cursor: pointer;
+  padding: 15px;
+  font-size: $font-size-submit-button;
+  border-radius: 10px;
+}
+
+.contact-container {
+  background: $color-wave-bg;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.blob-motion {
+  position: absolute;
+  transform: translateY(-10%) translateX(8%);
+  z-index: 0;
+  width: 960px;
+  height: 440px;
+}
+
+.wave .shape-fill-contact {
+  fill: $color-bg-secondary;
+}
+
+.pink .wave svg {
+  height: 200px;
+}
