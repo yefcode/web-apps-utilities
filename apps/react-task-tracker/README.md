@@ -1,72 +1,54 @@
-# React Applications - List App
+# 📝 React Task Tracker & Image Manager
 
-...
+> Aplicación SPA interactiva desarrollada en React 16.8+ (Create React App), React Router v5 y Axios para la gestión dinámica de tareas e imágenes sincronizadas con la API REST pública de JSONPlaceholder.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🎬 Demostración Visual (Demo)
 
-In the project directory, you can run:
+![React Task Tracker Demo](docs/demo.gif)
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🏛️ Arquitectura y Características Técnicas
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* **Framework Base:** React 16.8+ con JavaScript (ES6+).
+* **Consumo de API REST Externa:** Integración con JSONPlaceholder (`https://jsonplaceholder.typicode.com/photos`) mediante Axios:
+  * `GET /photos?_limit=10`: Carga inicial de elementos en el ciclo de vida del componente (`componentDidMount`).
+  * `POST /photos`: Creación reactiva de nuevas tarjetas de imagen/tarea.
+  * `DELETE /photos/:id`: Eliminación con actualización optimista del estado local.
+* **Enrutamiento Declarativo:** Gestión de vistas con `react-router-dom`:
+  * `/`: Vista principal con formulario interactivo `AddImage` y lista de elementos `Images`.
+  * `/about`: Vista estática informativa sobre el propósito de la aplicación y versión.
+* **Manejo de Formularios y Estado:** Componentes controlados con validación de tipos mediante `prop-types`.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Puesta en Marcha Local
 
-### `npm run build`
+### Prerrequisitos
+* Node.js v14 - v18 (recomendado).
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instalación y Ejecución
+```bash
+# 1. Instalar dependencias
+npm install
+# o con yarn:
+yarn install
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+# 2. Iniciar servidor de desarrollo
+npm start
+```
+Abre [http://localhost:3000](http://localhost:3000) en el navegador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧪 Scripts Disponibles
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Ejecutar pruebas unitarias
+npm test
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Compilar para producción
+npm run build
+```
