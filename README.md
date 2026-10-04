@@ -35,10 +35,10 @@ Cada app reside en `apps/[nombre]/` con su propio `README.md`, instrucciones de 
 | # | App | Demo | Stack | Estado |
 | :-: | :--- | :---: | :--- | :---: |
 | 1 | [`candidates-hr-manager/`](./apps/candidates-hr-manager/) | 🎬 GIF | Angular 15+, TypeScript, SCSS | ✅ Funcional |
-| 2 | [`one-piece-encyclopedia/`](./apps/one-piece-encyclopedia/) | ❌ — | Angular, TypeScript, RxJS | 📦 Legacy |
-| 3 | [`react-task-tracker/`](./apps/react-task-tracker/) | ❌ — | React 17, Hooks, localStorage | 📦 Legacy |
-| 4 | [`legacy-portfolio-cra-v1/`](./apps/legacy-portfolio-cra-v1/) | ❌ — | React CRA, JavaScript | 🗄️ Histórico |
-| 5 | [`legacy-portfolio-cra-v2/`](./apps/legacy-portfolio-cra-v2/) | ❌ — | React CRA, JavaScript | 🗄️ Histórico |
+| 2 | [`one-piece-encyclopedia/`](./apps/one-piece-encyclopedia/) | 🎬 GIF | Angular 7, TypeScript, RxJS, InMemoryDB | 📦 Legacy |
+| 3 | [`react-task-tracker/`](./apps/react-task-tracker/) | 🎬 GIF | React 16.8+, Axios, JSONPlaceholder API | 📦 Legacy |
+| 4 | [`legacy-portfolio-cra-v1/`](./apps/legacy-portfolio-cra-v1/) | 🎬 GIF | React CRA, SCSS, GitHub REST API (Publicado Original) | 🗄️ Histórico |
+| 5 | [`legacy-portfolio-cra-v2/`](./apps/legacy-portfolio-cra-v2/) | 🎬 GIF | React CRA, Dark Mode, Typewriter, GitHub API | 🗄️ Histórico |
 
 ---
 
